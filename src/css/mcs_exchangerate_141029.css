@@ -2,10 +2,10 @@
 /* Incomms WS PCW 130304 / KHS 130723, 130927, 131015 */
 
 /* 공통 */
-.cs_exchangerate{padding-bottom:16px}
+.cs_exchangerate{position:relative;padding-bottom:16px;font-size:14px;line-height:1.25em;word-wrap:normal;word-break:normal;*zoom:1;-webkit-text-stroke-width:0;text-shadow:none;}
 .cs_exchangerate .excr_cal{margin-bottom:10px;padding:10px 10px 5px}
 .cs_exchangerate .cont_area{background:#fbfcfc}
-.cs_exchangerate h2{margin-bottom:4px;font-size:18px}
+.cs_exchangerate h2{position:relative;margin-bottom:4px;padding:15px 10px .1em;border-bottom:none;font-size:18px;font-weight:normal;}
 .cs_exchangerate .blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;line-height:0;text-indent:-10000px}
 .cs_exchangerate .lk_more{padding:10px 10px 12px;border-top:1px solid #f1f1f1;background-color:#fff}
 .cs_exchangerate .lk_more a{float:right;padding-right:12px;background:url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/exchange/im/im_list.png) no-repeat 100% -62px;background-size:16px 125px;font-size:14px;color:#005fc1}
@@ -19,49 +19,14 @@
 .cs_exchangerate .num .recite{overflow:hidden;width:100%;height:26px;line-height:16px;text-align:right}
 .cs_exchangerate .num .recite .nb_txt{display:block;overflow:hidden;width:100%;height:20px;font-size:14px;color:#656873;text-align:right;white-space:nowrap}
 .cs_exchangerate .flag{display:block;overflow:hidden;position:absolute;top:10px;left:7px;width:25px;height:17px;background:url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/exchange/im/bg_flag.png) no-repeat 0 0;background-size:145px 337px}
-.cs_exchangerate .flag.krw{background-position:0 0}
-.cs_exchangerate .flag.usd{background-position:0 -32px}
-.cs_exchangerate .flag.jpy{background-position:0 -64px}
-.cs_exchangerate .flag.cny{background-position:0 -96px}
-.cs_exchangerate .flag.aud{background-position:0 -128px}
-.cs_exchangerate .flag.gbp{background-position:0 -160px}
-.cs_exchangerate .flag.cad{background-position:0 -192px}
-.cs_exchangerate .flag.php{background-position:0 -224px}
-.cs_exchangerate .flag.hkd{background-position:0 -256px}
-.cs_exchangerate .flag.thb{background-position:0 -288px}
-.cs_exchangerate .flag.eur{background-position:0 -320px}
-.cs_exchangerate .flag.sgd{background-position:-40px 0}
-.cs_exchangerate .flag.inr{background-position:-40px -32px}
-.cs_exchangerate .flag.brl{background-position:-40px -64px}
-.cs_exchangerate .flag.twd{background-position:-40px -96px}
-.cs_exchangerate .flag.myr{background-position:-40px -128px}
-.cs_exchangerate .flag.chf{background-position:-40px -160px}
-.cs_exchangerate .flag.vnd{background-position:-40px -192px}
-.cs_exchangerate .flag.rub{background-position:-40px -224px}
-.cs_exchangerate .flag.idr{background-position:-40px -256px}
-.cs_exchangerate .flag.bdt{background-position:-40px -288px}
-.cs_exchangerate .flag.sek{background-position:-40px -320px}
-.cs_exchangerate .flag.nok{background-position:-80px 0}
-.cs_exchangerate .flag.huf{background-position:-80px -32px}
-.cs_exchangerate .flag.mxn{background-position:-80px -64px}
-.cs_exchangerate .flag.kwd{background-position:-80px -96px}
-.cs_exchangerate .flag.dkk{background-position:-80px -128px}
-.cs_exchangerate .flag.egp{background-position:-80px -160px}
-.cs_exchangerate .flag.pln{background-position:-80px -192px}
-.cs_exchangerate .flag.sar{background-position:-80px -224px}
-.cs_exchangerate .flag.ils{background-position:-80px -256px}
-.cs_exchangerate .flag.pkr{background-position:-80px -288px}
-.cs_exchangerate .flag.bhd{background-position:-80px -320px}
-.cs_exchangerate .flag.jod{background-position:-120px 0}
-.cs_exchangerate .flag.bnd{background-position:-120px -32px}
-.cs_exchangerate .flag.aed{background-position:-120px -64px}
-.cs_exchangerate .flag.mnt{background-position:-120px -96px}
-.cs_exchangerate .flag.kzt{background-position:-120px -128px}
-.cs_exchangerate .flag.try{background-position:-120px -160px}
-.cs_exchangerate .flag.czk{background-position:-120px -192px}
-.cs_exchangerate .flag.qar{background-position:-120px -224px}
-.cs_exchangerate .flag.nzd{background-position:-120px -256px}
-.cs_exchangerate .flag.zar{background-position:-120px -288px}
+.cs_exchangerate .flag.krw{background-position:0 0} // 원
+.cs_exchangerate .flag.usd{background-position:0 -32px} // 달러
+.cs_exchangerate .flag.jpy{background-position:0 -64px} // 엔
+.cs_exchangerate .flag.cny{background-position:0 -96px} // 위안
+.cs_exchangerate .flag.aud{background-position:0 -128px} // 달러 - 호주
+.cs_exchangerate .flag.cad{background-position:0 -192px} // 달러 - 캐나다
+.cs_exchangerate .flag.eur{background-position:0 -320px} // 유로
+.cs_exchangerate .flag.nzd{background-position:-120px -256px} // 달러 - 뉴질랜드
 .cs_exchangerate .nt_eng{display:block;padding-left:36px;font-size:15px;color:#656873}
 .cs_exchangerate .excr_eq span{display:block;width:13px;height:11px;margin:5px auto;background:url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/exchange/im/im_list.png) no-repeat 0 -114px;background-size:16px 125px;color:transparent}
 
