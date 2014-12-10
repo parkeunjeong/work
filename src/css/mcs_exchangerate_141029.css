@@ -19,14 +19,14 @@
 .cs_exchangerate .num .recite{overflow:hidden;width:100%;height:26px;line-height:16px;text-align:right}
 .cs_exchangerate .num .recite .nb_txt{display:block;overflow:hidden;width:100%;height:20px;font-size:14px;color:#656873;text-align:right;white-space:nowrap}
 .cs_exchangerate .flag{display:block;overflow:hidden;position:absolute;top:10px;left:7px;width:25px;height:17px;background:url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/exchange/im/bg_flag.png) no-repeat 0 0;background-size:145px 337px}
-.cs_exchangerate .flag.krw{background-position:0 0} // 원
-.cs_exchangerate .flag.usd{background-position:0 -32px} // 달러
-.cs_exchangerate .flag.jpy{background-position:0 -64px} // 엔
-.cs_exchangerate .flag.cny{background-position:0 -96px} // 위안
-.cs_exchangerate .flag.aud{background-position:0 -128px} // 달러 - 호주
-.cs_exchangerate .flag.cad{background-position:0 -192px} // 달러 - 캐나다
-.cs_exchangerate .flag.eur{background-position:0 -320px} // 유로
-.cs_exchangerate .flag.nzd{background-position:-120px -256px} // 달러 - 뉴질랜드
+.cs_exchangerate .flag.krw{background-position:0 0}
+.cs_exchangerate .flag.usd{background-position:0 -32px}
+.cs_exchangerate .flag.jpy{background-position:0 -64px}
+.cs_exchangerate .flag.cny{background-position:0 -96px}
+.cs_exchangerate .flag.aud{background-position:0 -128px}
+.cs_exchangerate .flag.cad{background-position:0 -192px}
+.cs_exchangerate .flag.eur{background-position:0 -320px}
+.cs_exchangerate .flag.nzd{background-position:-120px -256px}
 .cs_exchangerate .nt_eng{display:block;padding-left:36px;font-size:15px;color:#656873}
 .cs_exchangerate .excr_eq span{display:block;width:13px;height:11px;margin:5px auto;background:url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/exchange/im/im_list.png) no-repeat 0 -114px;background-size:16px 125px;color:transparent}
 

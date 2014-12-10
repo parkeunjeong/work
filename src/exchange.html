@@ -10,6 +10,9 @@
 	<link rel="shortcut icon" href="https://ssl.pstatic.net/sstatic/search/favicon/favicon_140327.ico">
 	<link rel="stylesheet" type="text/css" href="css/w_1204.css">
 	<link rel="stylesheet" type="text/css" href="css/mcs_exchangerate_141029.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/markup.js"></script>
 </head>
 <body>
 	<div id="u_skip" class="u_skip"><a href="#ct">본문 바로가기</a></div>
@@ -25,7 +28,7 @@
 						<div class="excr_box _exchr_cal_inp">
 							<div class="slc_box">
 								<label for="ecg_ifmt" class="nc">환율을 계산할 국가를 선택</label>
-								<select class="nt_slc" id="ecg_ifmt" onchange="goOtherCR(this, 'a=drt_exc.crtl&r=1&i=0000009d_00001574927e&u='+'javascript');">
+								<select class="nt_slc" id="ecg_ifmt">
 									<option value='1' data-unit="KRW">대한민국</option>
 									<option value='1,109.00' selected data-unit="USD">미국</option>
 									<option value='9.2664' data-unit="JPY">일본</option>
@@ -50,7 +53,7 @@
 						<div class="excr_box _exchr_cal_inp">
 							<div class="slc_box">
 								<label for="ecg_ifmt2" class="nc">환율을 변환하는 국가를 선택</label>
-								<select class="nt_slc" id="ecg_ifmt2" onchange="goOtherCR(this, 'a=drt_exc.crtr&r=1&i=0000009d_00001574927e&u='+'javascript');">
+								<select class="nt_slc" id="ecg_ifmt2">
 									<option value='1' selected data-unit="KRW">대한민국</option>
 									<option value='1,109.00' data-unit="USD">미국</option>
 									<option value='9.2664' data-unit="JPY">일본</option>
@@ -65,7 +68,7 @@
 							</div>
 							<div class="num">
 								<label for="num2" class="nc">환율을 변환하는 국가를 선택</label>
-								<input id="num2" type="text" maxlength="" value="1,097.50"  class="_before_cal">
+								<input id="num2" type="text" maxlength="" value="0.00"  class="_before_cal">
 								<div class="recite">
 									<span class="nb_txt _r_unit"></span>
 								</div>
